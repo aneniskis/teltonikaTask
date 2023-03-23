@@ -31,7 +31,7 @@ export const UserList = () => {
     <section className="container">
       <div className="title">
         <h2>
-          Tables of users whose catagory -{" "}
+          Tables of users whose category -{" "}
           <span className="title__category">{category}</span> and sub-category -{" "}
           <span className="title__category">{subCategory}</span>.
         </h2>
