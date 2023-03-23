@@ -1,0 +1,56 @@
+@import "../../styles/variables";
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.searchbox {
+  width: 80%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5rem;
+}
+.title {
+  width: 95%;
+  text-align: center;
+  font-size: $heading-font-size-2;
+  &__category {
+    color: $color-tertiary-dark;
+    font-size: $heading-font-size;
+  }
+}
+
+.table {
+  width: 80%;
+  margin-top: 2rem;
+  &__title {
+    background-color: $color-tertiary-light;
+    font-size: $heading-font-size-2;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 1rem 1rem 0 0;
+  }
+  &__header {
+    width: 100%;
+    display: grid;
+    padding: 1rem 0;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    background-color: $color-white;
+    font-size: $form-font-size-small;
+    border-bottom: 2px solid $color-black;
+  }
+  &__header:not(:last-child) {
+    border-bottom: 1px solid $color-black;
+  }
+  &__header:last-child {
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  &__list {
+    width: 100%;
+  }
+}
