@@ -3,7 +3,7 @@
 .nav {
   width: 20rem;
   padding: 2rem 1rem;
-  background-color: aqua;
+  background-color: $color-grey-dark;
   transition: ease-in-out 0.1s;
 
   &__list {
